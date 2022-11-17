@@ -1,15 +1,15 @@
-##Terraform
+## Terraform
 
 This is the source code that creates a VPC (Virtual Private Cloud) and all the associated resources in AWS.
 
-###Installation
+### Installation
 Terraform requires the following dependencies:
 
 - AWS IAM Secret Access Key
 - AWS Command Line Interface - https://aws.amazon.com/cli/
 - Terraform v1.3.4 - https://developer.hashicorp.com/terraform/downloads
 
-###Development
+### Development
 In development you can quickly get a VPC running by following these steps:
 
 - Clone this repo
@@ -29,8 +29,8 @@ Note: The resources that will be created are as follows:
 - An Elastic IP
 - 2 Routing Tables (One associated with the Public Subnet and One associated with the Private Subnet)
 
-###De-Allocate the resources
+### De-Allocate the resources
 To de-allocate the entire resources that have been created, run `terraform apply -destroy`.
 
-###General Information
+### General Information
 Kindly refer to the documentation: https://developer.hashicorp.com/terraform/tutorials/aws-get-started
