@@ -1,4 +1,4 @@
-## Terraform
+## Terraform-VPC
 
 This is the source code that creates a VPC (Virtual Private Cloud) and all the associated resources in AWS.
 
